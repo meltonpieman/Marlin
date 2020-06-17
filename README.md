@@ -1,5 +1,8 @@
 # Marlin 3D Printer Firmware
 
+FOR AN ENDER 3 WITH AN SKR 1.4 BOARD, TMC 2209 DRIVERS (sensorless homing X & y), BLTOUCH (on the Z ENDSTOP PIN), FILAMENT RUNOUT SENSOR
+##########################################################
+
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
 ![GitHub Release Date](https://img.shields.io/github/release-date/marlinfirmware/marlin.svg)
