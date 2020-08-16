@@ -2,7 +2,7 @@
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  * ##############################################################################
- * ALTERATIONS MADE INDICATED THUS - MAIN UBL // UBL or DATE IMPLIMENTED // 20/06/28 20/07/06 20/07/09 20/07/17 20/07/28 20/07/30
+ * ALTERATIONS MADE INDICATED THUS - MAIN UBL // UBL or DATE IMPLIMENTED // 20/06/28 20/07/06 20/07/09 20/07/17 20/07/28 20/07/30 20/08/16oem
  * ##############################################################################
  * Based on Sprinter and grbl.
  * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
@@ -134,7 +134,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "E3DD SKR1.4 UBL 20/07/30" // ALTER TO SAVED DATE ########################### // 20/07/30
+#define CUSTOM_MACHINE_NAME "E3DD SKR1.4 UBL 20/08/16" // ALTER TO SAVED DATE ########################### // 20/08/16oem
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -989,7 +989,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { -42, -24, -0.537 } // Z OFFSET SET IN USER MENU FOR EACH MESH SAVED // 20/07/28 for smooth pei
+#define NOZZLE_TO_PROBE_OFFSET { 20, -22, -0.537 } // Z OFFSET SET IN USER MENU FOR EACH MESH SAVED // 20/08/16oem
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -2209,7 +2209,7 @@
 // Use software PWM to drive the fan, as for the heaters. This uses a very low frequency
 // which is not as annoying as with the hardware PWM. On the other hand, if this frequency
 // is too low, you should also increment SOFT_PWM_SCALE.
-#define FAN_SOFT_PWM // 20/06/28
+// #define FAN_SOFT_PWM // 20/06/28 set om // 20/08/16oem set off
 
 // Incrementing this by 1 will double the software PWM frequency,
 // affecting heaters, and the fan if FAN_SOFT_PWM is enabled.
