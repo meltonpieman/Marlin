@@ -134,7 +134,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "E3proMSDD SKR1.4UBL 20/08/23" // ALTER TO SAVED DATE ########################### // base
+#define CUSTOM_MACHINE_NAME "E3proMSDD SKR1.4UBL 20/08/23" // ALTER TO SAVED DATE ########################### // BASE
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -749,7 +749,7 @@
  * Override with M203
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 500, 500, 5, 40 } // 22/08/16 to allow speed for Micro Swiss
+#define DEFAULT_MAX_FEEDRATE          { 500, 500, 5, 50 } // MS 22/08/23 to allow speed for Micro Swiss and M600 change
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
