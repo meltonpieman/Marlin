@@ -2,7 +2,7 @@
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  * ##############################################################################
- * ALTERATIONS MADE INDICATED THUS - BASE //  UBL  // MS or DATE IMPLEMENTED AS = //20/08/16 20/08/20 20/08/23
+ * ALTERATIONS MADE INDICATED THUS - BASE //  UBL  // MS or DATE IMPLEMENTED AS = //20/08/16 20/08/20 20/08/23 20/08/24
  * ##############################################################################
  * Based on Sprinter and grbl.
  * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
@@ -490,24 +490,6 @@
   #define DEFAULT_Ki 2.46  // 20/08/16 MS
   #define DEFAULT_Kd 69.80 // 20/08/16 MS
 
-  // CONFIG FOR MY SETUP CHECK YOUR OWN
- // #define DEFAULT_Kp 28.36 // 20/06/28
- // #define DEFAULT_Ki 2.92  // 20/06/28
- // #define DEFAULT_Kd 68.92 // 20/06/28
-
-  // Ultimaker
-  //#define DEFAULT_Kp 22.2
-  //#define DEFAULT_Ki 1.08
-  //#define DEFAULT_Kd 114
-
-  // MakerGear
-  //#define DEFAULT_Kp 7.0
-  //#define DEFAULT_Ki 0.1
-  //#define DEFAULT_Kd 12
-
-  // Mendel Parts V9 on 12V
-  //#define DEFAULT_Kp 63.0
-  //#define DEFAULT_Ki 2.25
   //#define DEFAULT_Kd 440
 
 #endif // PIDTEMP
@@ -967,7 +949,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { -44, -20, -2.976 } // Z OFFSET SET IN USER MENU FOR EACH MESH SAVED // MS for smooth pei MSwiss
+#define NOZZLE_TO_PROBE_OFFSET { -35, 3, -1.849 } // Z OFFSET SET IN USER MENU FOR EACH MESH SAVED // MS for smooth pei MSwiss 20/08/24
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
