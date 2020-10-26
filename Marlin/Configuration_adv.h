@@ -2,7 +2,7 @@
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  * ##################################################################################
- * ALTERATIONS MADE INDICATED THUS - // BASE // UBL or DATE IMPLIMENTED = // 20/06/26 20/07/09 20/08/20 20/08/23
+ * ALTERATIONS MADE INDICATED THUS - // BASE // UBL or DATE IMPLIMENTED = // 20/06/26 20/07/09 20/08/20 20/08/23 20/10/26
  * ##################################################################################
  * Based on Sprinter and grbl.
  * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
@@ -1532,7 +1532,7 @@
   //#define PROBE_PT_2_X 15
   //#define PROBE_PT_2_Y 20
   // #define PROBE_PT_3_X 215 // WAS 170 // UBL not enabled
-  //#define PROBE_PT_3_Y 20
+  //#define PROBE_PT_3_Y 30 // 20/10/26 was 20
 #endif
 
 /**

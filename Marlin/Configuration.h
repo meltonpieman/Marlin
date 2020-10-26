@@ -2,7 +2,7 @@
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  * ##############################################################################
- * ALTERATIONS MADE INDICATED THUS - BASE //  UBL  // MS or DATE IMPLEMENTED AS = //20/08/16 20/08/20 20/08/23 20/08/24
+ * ALTERATIONS MADE INDICATED THUS - BASE //  UBL  // MS or DATE IMPLEMENTED AS = //20/08/16 20/08/20 20/08/23 20/08/24 20/10/26
  * ##############################################################################
  * Based on Sprinter and grbl.
  * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
@@ -1147,13 +1147,13 @@
   // After a runout is detected, continue printing this length of filament
   // before executing the runout script. Useful for a sensor at the end of
   // a feed tube. Requires 4 bytes SRAM per sensor, plus 4 bytes overhead.
-  //#define FILAMENT_RUNOUT_DISTANCE_MM 25
+  #define FILAMENT_RUNOUT_DISTANCE_MM 7 // 20/10/26 was 25
 
   #ifdef FILAMENT_RUNOUT_DISTANCE_MM
     // Enable this option to use an encoder disc that toggles the runout pin
     // as the filament moves. (Be sure to set FILAMENT_RUNOUT_DISTANCE_MM
     // large enough to avoid false positives.)
-    //#define FILAMENT_MOTION_SENSOR
+    #define FILAMENT_MOTION_SENSOR // 20/10/26
   #endif
 #endif
 
