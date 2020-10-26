@@ -1528,10 +1528,10 @@
  */
 #if EITHER(AUTO_BED_LEVELING_3POINT, AUTO_BED_LEVELING_UBL)
   //#define PROBE_PT_1_X 15
-  //#define PROBE_PT_1_Y 215 // WAS 180 // UBL not enabled
+  // #define PROBE_PT_1_Y 215 // WAS 180 // UBL not enabled
   //#define PROBE_PT_2_X 15
   //#define PROBE_PT_2_Y 20
-  //#define PROBE_PT_3_X 215 // WAS 170 // UBL not enabled
+  // #define PROBE_PT_3_X 215 // WAS 170 // UBL not enabled
   //#define PROBE_PT_3_Y 20
 #endif
 
