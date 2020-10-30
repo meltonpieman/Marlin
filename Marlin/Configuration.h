@@ -134,7 +134,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "E3proMSDD SKR1.4UBL 20/10/29" // ALTER TO SAVED DATE ########################### // BASE
+#define CUSTOM_MACHINE_NAME "E3proMSDD SKR1.4UBL 20/10/29 B" // ALTER TO SAVED DATE ########################### // BASE
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -1133,7 +1133,7 @@
  * For other boards you may need to define FIL_RUNOUT_PIN, FIL_RUNOUT2_PIN, etc.
  * By default the firmware assumes HIGH=FILAMENT PRESENT.
  */
-#define FILAMENT_RUNOUT_SENSOR // 20/06/28
+//#define FILAMENT_RUNOUT_SENSOR // 20/06/29
 #if ENABLED(FILAMENT_RUNOUT_SENSOR)
   #define NUM_RUNOUT_SENSORS   1     // Number of sensors, up to one per extruder. Define a FIL_RUNOUT#_PIN for each.
   #define FIL_RUNOUT_INVERTING false // Set to true to invert the logic of the sensor.
@@ -1147,7 +1147,7 @@
   // After a runout is detected, continue printing this length of filament
   // before executing the runout script. Useful for a sensor at the end of
   // a feed tube. Requires 4 bytes SRAM per sensor, plus 4 bytes overhead.
-  #define FILAMENT_RUNOUT_DISTANCE_MM 50 // 20/10/29 was 25 BTT suggest 7 on Boden
+ #define FILAMENT_RUNOUT_DISTANCE_MM 50 // 20/10/29 was 25 BTT suggest 7 on Boden
 
   #ifdef FILAMENT_RUNOUT_DISTANCE_MM
     // Enable this option to use an encoder disc that toggles the runout pin
