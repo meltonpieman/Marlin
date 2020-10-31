@@ -132,11 +132,7 @@
 
 // Name displayed in the LCD "Ready" message and Info menu
 <<<<<<< HEAD
-<<<<<<< HEAD
 //#define CUSTOM_MACHINE_NAME "3D Printer"
-=======
-#define CUSTOM_MACHINE_NAME "E3proMSDD SKR1.4UBL 20/10/29" // ALTER TO SAVED DATE ########################### // BASE
->>>>>>> parent of f1645cec96... filament sensor disabled
 =======
 #define CUSTOM_MACHINE_NAME "E3proMSDD SKR1.4UBL 20/10/29" // ALTER TO SAVED DATE ########################### // BASE
 >>>>>>> parent of f1645cec96... filament sensor disabled
@@ -1178,11 +1174,7 @@
  * For other boards you may need to define FIL_RUNOUT_PIN, FIL_RUNOUT2_PIN, etc.
  */
 <<<<<<< HEAD
-<<<<<<< HEAD
 //#define FILAMENT_RUNOUT_SENSOR
-=======
-#define FILAMENT_RUNOUT_SENSOR // 20/06/28
->>>>>>> parent of f1645cec96... filament sensor disabled
 =======
 #define FILAMENT_RUNOUT_SENSOR // 20/06/28
 >>>>>>> parent of f1645cec96... filament sensor disabled
@@ -1201,11 +1193,7 @@
   // before executing the runout script. Useful for a sensor at the end of
   // a feed tube. Requires 4 bytes SRAM per sensor, plus 4 bytes overhead.
 <<<<<<< HEAD
-<<<<<<< HEAD
   //#define FILAMENT_RUNOUT_DISTANCE_MM 25
-=======
-  #define FILAMENT_RUNOUT_DISTANCE_MM 50 // 20/10/29 was 25 BTT suggest 7 on Boden
->>>>>>> parent of f1645cec96... filament sensor disabled
 =======
   #define FILAMENT_RUNOUT_DISTANCE_MM 50 // 20/10/29 was 25 BTT suggest 7 on Boden
 >>>>>>> parent of f1645cec96... filament sensor disabled
