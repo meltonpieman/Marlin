@@ -131,11 +131,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-<<<<<<< HEAD
 //#define CUSTOM_MACHINE_NAME "3D Printer"
-=======
-#define CUSTOM_MACHINE_NAME "E3proMSDD SKR1.4UBL 20/10/29" // ALTER TO SAVED DATE ########################### // BASE
->>>>>>> parent of f1645cec96... filament sensor disabled
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -1173,11 +1169,7 @@
  * RAMPS-based boards use SERVO3_PIN for the first runout sensor.
  * For other boards you may need to define FIL_RUNOUT_PIN, FIL_RUNOUT2_PIN, etc.
  */
-<<<<<<< HEAD
 //#define FILAMENT_RUNOUT_SENSOR
-=======
-#define FILAMENT_RUNOUT_SENSOR // 20/06/28
->>>>>>> parent of f1645cec96... filament sensor disabled
 #if ENABLED(FILAMENT_RUNOUT_SENSOR)
   #define FIL_RUNOUT_ENABLED_DEFAULT true // Enable the sensor on startup. Override with M412 followed by M500.
   #define NUM_RUNOUT_SENSORS   1          // Number of sensors, up to one per extruder. Define a FIL_RUNOUT#_PIN for each.
@@ -1192,11 +1184,7 @@
   // After a runout is detected, continue printing this length of filament
   // before executing the runout script. Useful for a sensor at the end of
   // a feed tube. Requires 4 bytes SRAM per sensor, plus 4 bytes overhead.
-<<<<<<< HEAD
   //#define FILAMENT_RUNOUT_DISTANCE_MM 25
-=======
-  #define FILAMENT_RUNOUT_DISTANCE_MM 50 // 20/10/29 was 25 BTT suggest 7 on Boden
->>>>>>> parent of f1645cec96... filament sensor disabled
 
   #ifdef FILAMENT_RUNOUT_DISTANCE_MM
     // Enable this option to use an encoder disc that toggles the runout pin
