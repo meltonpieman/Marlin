@@ -134,7 +134,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "E3proMSDD SKR1.4UBL 20/10/29 B" // ALTER TO SAVED DATE ########################### // BASE
+#define CUSTOM_MACHINE_NAME "E3proMSDD SKR1.4UBL 20/10/29 B working pre 2021/05" // ALTER TO SAVED DATE ########################### // BASE 
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
