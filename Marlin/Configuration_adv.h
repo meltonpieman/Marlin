@@ -3719,7 +3719,7 @@
 // Custom Menu: Configuration Menu
 #define CUSTOM_MENU_CONFIG // 21/05/31
 #if ENABLED(CUSTOM_MENU_CONFIG)
-  #define CUSTOM_MENU_CONFIG_TITLE "UBL macros" // MMMMM
+  #define CUSTOM_MENU_CONFIG_TITLE "UBL macros" // MMMM
   #define CUSTOM_MENU_CONFIG_SCRIPT_DONE "M117 Wireless Script Done"
   #define CUSTOM_MENU_CONFIG_SCRIPT_AUDIBLE_FEEDBACK
   //#define CUSTOM_MENU_CONFIG_SCRIPT_RETURN  // Return to status screen after a script

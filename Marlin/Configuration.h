@@ -39,7 +39,7 @@
  *
  * Advanced settings can be found in Configuration_adv.h
  */
-#define CONFIGURATION_H_VERSION 02000900
+#define CONFIGURATION_H_VERSION 02000900 // version 2.0.9.0.1 xNAMEx
 
 //===========================================================================
 //============================= Getting Started =============================
@@ -147,7 +147,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Endo 21/07/04" // ALTER TO SAVED DATE ########################### // xNAMEx
+#define CUSTOM_MACHINE_NAME "Endo 2.9.0.1 21/07/05" // ALTER TO SAVED DATE ########################### // xNAMEx
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
