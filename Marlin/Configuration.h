@@ -2,7 +2,7 @@
  * Marlin 3D Printer Firmware VERSION 2.0.9.1 21/07/05
  * Copyright (c) 2021 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  * ############################################################################## xNAMEx
- * ALTERATIONS MADE INDICATED THUS - BASE //  UBL  // MS or DATE IMPLEMENTED AS // 21/06/30 ???? @@@@ -ubl 10x10-
+ * ALTERATIONS MADE INDICATED THUS - BASE //  UBL  // MS or DATE IMPLEMENTED AS // 21/06/30 21/07/07 #### ???? @@@@ -UBL 10x10-
  * ##############################################################################
  * Based on Sprinter and grbl.
  * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
@@ -1613,7 +1613,7 @@
   #define UBL_MESH_EDIT_MOVES_Z     // Sophisticated users prefer no movement of nozzle
   #define UBL_SAVE_ACTIVE_ON_M500   // Save the currently active mesh in the current slot on M500
 
-  #define UBL_Z_RAISE_WHEN_OFF_MESH 2.5 // When the nozzle is off the mesh, this value is used // 21/05/31 ####
+  #define UBL_Z_RAISE_WHEN_OFF_MESH 0 // When the nozzle is off the mesh, this value is used // 21/07/07 was 2.5 -UBL ####
                                           // as the Z-Height correction value.
 
  //#define UBL_MESH_WIZARD         // Run several commands in a row to get a complete mesh
