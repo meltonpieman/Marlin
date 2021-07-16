@@ -1,5 +1,5 @@
 /**
- * Marlin 3D Printer Firmware VERSION 2.0.9.1 21/07/05
+ * Marlin 3D Printer Firmware VERSION 2.0.9.1 21/07/15
  * Copyright (c) 2021 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  * ############################################################################## xNAMEx
  * ALTERATIONS MADE INDICATED THUS - BASE //  UBL  // MS or DATE IMPLEMENTED AS // 21/06/30 21/07/07 #### ???? @@@@ -UBL 10x10-
@@ -147,7 +147,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Endo 2.9.0.1 21/07/05" // ALTER TO SAVED DATE ########################### // xNAMEx
+#define CUSTOM_MACHINE_NAME "Endo 2.9.0.1 21/07/15" // ALTER TO SAVED DATE ########################### // xNAMEx
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -1154,7 +1154,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -35, 3, -2.396 } // MS BASE
+#define NOZZLE_TO_PROBE_OFFSET { -35, 3, -2.697 } // MS BASE 21/07/15
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1613,7 +1613,7 @@
   #define UBL_MESH_EDIT_MOVES_Z     // Sophisticated users prefer no movement of nozzle
   #define UBL_SAVE_ACTIVE_ON_M500   // Save the currently active mesh in the current slot on M500
 
-  #define UBL_Z_RAISE_WHEN_OFF_MESH 0 // When the nozzle is off the mesh, this value is used // 21/07/07 was 2.5 -UBL ####
+  #define UBL_Z_RAISE_WHEN_OFF_MESH 0 // When the nozzle is off the mesh, this value is used // 21/07/07 was 2.5 UBL ####
                                           // as the Z-Height correction value.
 
  //#define UBL_MESH_WIZARD         // Run several commands in a row to get a complete mesh

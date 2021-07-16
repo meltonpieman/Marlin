@@ -1,8 +1,8 @@
 /**
- * Marlin 3D Printer Firmware VERSION 2.0.9.1 21/07/05
+ * Marlin 3D Printer Firmware VERSION 2.0.9.1 21/07/15
  * Copyright (c) 2021 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  * ##################################################################################
- * ALTERATIONS MADE INDICATED THUS - // BASE // UBL  // LINADV or DATE IMPLIMENTED = // 20/06/26 21/05/31 #### ???? LINEAR ADVANCE menu= MMMM -UBL @@@@ 21/06/30
+ * ALTERATIONS MADE INDICATED THUS - // BASE // UBL  // LINADV or DATE IMPLIMENTED = // 20/06/26 21/05/31 #### ???? LINEAR ADVANCE menu= MMMM -UBL @@@@ 21/06/30 21/07/15 (3 point mesh)
  * ##################################################################################
  * Based on Sprinter and grbl.
  * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
@@ -1887,8 +1887,8 @@
   #define PROBE_PT_1_X 15  // 21/05/31 ####
   #define PROBE_PT_1_Y 180 // 21/05/31 ####
   #define PROBE_PT_2_X 15  // 21/05/31 ####
-  #define PROBE_PT_2_Y 20  // 21/05/31 ####
-  #define PROBE_PT_3_X 170 // 21/05/31 ####
+  #define PROBE_PT_2_Y 10  // 21/07/15 was 20 ####
+  #define PROBE_PT_3_X 180 // 21/07/15 was 170 ####
   #define PROBE_PT_3_Y 20  // 21/05/31 ####
 
   //#define PROBE_PT_1_X 20  // 21/06/31
