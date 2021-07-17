@@ -1,8 +1,8 @@
 /**
- * Marlin 3D Printer Firmware VERSION 2.0.9.1 21/07/15
+ * Marlin 3D Printer Firmware VERSION 2.0.9.1 21/07/17
  * Copyright (c) 2021 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  * ############################################################################## xNAMEx
- * ALTERATIONS MADE INDICATED THUS - BASE //  UBL  // MS or DATE IMPLEMENTED AS // 21/06/30 21/07/07 #### ???? @@@@ -UBL 10x10-
+ * ALTERATIONS MADE INDICATED THUS - BASE //  UBL  // MS or DATE IMPLEMENTED AS // 21/06/30 21/07/07 #### ???? @@@@ -UBL 10x10- 21/07/17 baud rates
  * ##############################################################################
  * Based on Sprinter and grbl.
  * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
@@ -106,7 +106,7 @@
  *
  * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-#define SERIAL_PORT 0
+#define SERIAL_PORT 0 // TFT ???? 21/07/17
 
 /**
  * Serial Port Baud Rate
@@ -127,8 +127,8 @@
  * Currently Ethernet (-2) is only supported on Teensy 4.1 boards.
  * :[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-#define SERIAL_PORT_2 -1
-//#define BAUDRATE_2 250000   // Enable to override BAUDRATE ####
+#define SERIAL_PORT_2 -1 // USB 21/07/17
+#define BAUDRATE_2 250000   // Enable to override BAUDRATE 21/07/17 was // ie 115200
 
 /**
  * Select a third serial port on the board to use for communication with the host.
@@ -147,7 +147,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Endo 2.9.0.1 21/07/15" // ALTER TO SAVED DATE ########################### // xNAMEx
+#define CUSTOM_MACHINE_NAME "Endo 2.9.0.1 21/07/17" // ALTER TO SAVED DATE ########################### // xNAMEx
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
