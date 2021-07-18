@@ -1,8 +1,8 @@
 /**
- * Marlin 3D Printer Firmware VERSION 2.0.9.1 21/07/15
+ * Marlin 3D Printer Firmware VERSION 2.0.9.1 21/07/18
  * Copyright (c) 2021 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  * ##################################################################################
- * ALTERATIONS MADE INDICATED THUS - // BASE // UBL  // LINADV or DATE IMPLIMENTED = // 20/06/26 21/05/31 #### ???? LINEAR ADVANCE menu= MMMM -UBL @@@@ 21/06/30 21/07/15 (3 point mesh)
+ * ALTERATIONS MADE INDICATED THUS - // BASE // UBL  // LINADV or DATE IMPLIMENTED = // 20/06/26 21/05/31 21/07/18 #### ???? LINEAR ADVANCE menu= MMMM -UBL @@@@ 21/06/30 21/07/15 (3 point mesh)
  * ##################################################################################
  * Based on Sprinter and grbl.
  * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
@@ -3727,25 +3727,25 @@
 
 // my menu items ################################## MMMM
 
-  #define CONFIG_MENU_ITEM_1_DESC "Probe UBL Slot 2 PEI powder coated" //Use probe to setup UBL. // 20/06/26
-  #define CONFIG_MENU_ITEM_1_GCODE "M190 S60\nG28\nG29 P1\nG29 P3\nG29 S2\nG29 A\nG29 F 10.0\nM500\nM140 S0\nM0 Mesh Saved Slot 2 PEI p coated" // heat bed, home, UBL, fade // 20/06/26
+  #define CONFIG_MENU_ITEM_2_DESC "Probe UBL Slot 2 PEI powder coated" //Use probe to setup UBL. // 20/07/18
+  #define CONFIG_MENU_ITEM_2_GCODE "M190 S60\nG28\nG29 P1\nG29 P3\nG29 S2\nG29 A\nG29 F 10.0\nM500\nM140 S0\nM0 Mesh Saved Slot 2 PEI p coated" // heat bed, home, UBL, fade // 20/06/26
 
-  #define CONFIG_MENU_ITEM_2_DESC "UBL Z Offset Step 1" // -UBL
-  #define CONFIG_MENU_ITEM_2_GCODE "G28\nG1 X117.5 Y117.5 Z0.00\nM211 S0\nM0 Lower Z Offset" // home, centre bed, software endstops off, wait to do offset // -UBL
+  #define CONFIG_MENU_ITEM_3_DESC "UBL Z Offset Step 1" // -UBL 20/07/18
+  #define CONFIG_MENU_ITEM_3_GCODE "G28\nG1 X117.5 Y117.5 Z0.00\nM211 S0\nM0 Lower Z Offset" // home, centre bed, software endstops off, wait to do offset // -UBL
 
-  #define CONFIG_MENU_ITEM_3_DESC "UBL Z Offset Step 2" // -UBL
-  #define CONFIG_MENU_ITEM_3_GCODE "M211 S1\nM500" // sotware endstops on save eprom // -UBL
+  #define CONFIG_MENU_ITEM_4_DESC "UBL Z Offset Step 2" // -UBL 20/07/18
+  #define CONFIG_MENU_ITEM_4_GCODE "M211 S1\nM500" // sotware endstops on save eprom // -UBL
 
-  #define CONFIG_MENU_ITEM_4_DESC "Print Mesh Validation" // -UBL
-  #define CONFIG_MENU_ITEM_4_GCODE "M109 S210\nM190 S60\nG28\nG26\nG28" // heat up, home, print, home // -UBL
+  #define CONFIG_MENU_ITEM_5_DESC "Print Mesh Validation" // -UBL 20/07/18
+  #define CONFIG_MENU_ITEM_5_GCODE "M109 S210\nM190 S60\nG28\nG26\nG28" // heat up, home, print, home // -UBL
 
-  #define CONFIG_MENU_ITEM_5_DESC "Mesh Tilt 3 point level" //Tilt mesh to account for changes of knobs under the bed // -UBL
-  #define CONFIG_MENU_ITEM_5_GCODE "G29 J2\nM500" // 3 point level, save eprom // -UBL
+  #define CONFIG_MENU_ITEM_6_DESC "Mesh Tilt 3 point level" //Tilt mesh to account for changes of knobs under the bed // -UBL 20/07/18
+  #define CONFIG_MENU_ITEM_6_GCODE "G29 J2\nM500" // 3 point level, save eprom // -UBL
 
-  #define CONFIG_MENU_ITEM_6_DESC "Probe UBL Slot 1 PEI film " //Use probe to setup UBL. // 20/06/26
-  #define CONFIG_MENU_ITEM_6_GCODE "M190 S60\nG28\nG29 P1\nG29 P3\nG29 S1\nG29 A\nG29 F 10.0\nM500\nM140 S0\nM0 Mesh Saved Slot 1 PEI film" // heat bed, home, UBL, fade // 20/06/26
+  #define CONFIG_MENU_ITEM_1_DESC "Probe UBL Slot 1 PEI film " //Use probe to setup UBL. // 20/07/18
+  #define CONFIG_MENU_ITEM_1_GCODE "M190 S60\nG28\nG29 P1\nG29 P3\nG29 S1\nG29 A\nG29 F 10.0\nM500\nM140 S0\nM0 Mesh Saved Slot 1 PEI film" // heat bed, home, UBL, fade // 20/06/26
 
-  #define CONFIG_MENU_ITEM_7_DESC "Probe UBL Slot 3 Ender magbed" //Use probe to setup UBL. // 20/06/26
+  #define CONFIG_MENU_ITEM_7_DESC "Probe UBL Slot 3 Ender magbed" //Use probe to setup UBL. // 20/07/18
   #define CONFIG_MENU_ITEM_7_GCODE "M190 S60\nG28\nG29 P1\nG29 P3\nG29 S3\nG29 A\nG29 F 10.0\nM500\nM140 S0\nM0 Mesh Saved Slot 3 Ender bed" // heat bed, home, UBL, fade // 20/06/26
   
 // ##################################
